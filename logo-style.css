@@ -1,0 +1,64 @@
+:root {
+    --white: white;
+}
+
+@font-face {
+    font-family: pt-mono;
+    src: url(assets/PTMono-Regular.ttf);
+}
+
+
+body {
+    margin: 0;
+}
+
+.main-content {
+    display: flex;
+}
+
+.background {
+    position: relative;
+    
+    height: 100vh;
+    
+    flex: 1;
+    
+    background: url("assets/background.jpg") no-repeat;
+    background-size: cover;
+}
+
+.logo, .credit {
+    color: var(--white);
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    top: 25%;
+    width: 100%;
+
+    background: rgba(0, 0, 0, 0.5);
+    
+    
+    font-size: 48px;
+    font-family: pt-mono, sans-serif;
+}
+
+.credit {
+    position: absolute;
+    top: 95%;
+    left: 30%;
+    
+    text-align: center;
+}
+
+img {
+    height: 100px;
+}
+
+a {
+    color: var(--white);
+}
