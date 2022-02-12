@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: pt-mono;
-    src: url(assets/PTMono-Regular.ttf);
+    src: url(../assets/PTMono-Regular.ttf);
 }
 
 
@@ -20,10 +20,10 @@ body {
     position: relative;
     
     height: 100vh;
+
+    flex: 1 0 35%;
     
-    flex: 1;
-    
-    background: url("assets/background.jpg") no-repeat;
+    background: url("../assets/background.jpg") no-repeat;
     background-size: cover;
 }
 
@@ -50,15 +50,16 @@ body {
 .credit {
     position: absolute;
     top: 95%;
-    left: 30%;
+    left: 35%;
     
-    text-align: center;
+    font-size: 12px;
 }
 
 img {
     height: 100px;
 }
 
-a {
+.credit a {
     color: var(--white);
+    
 }
